@@ -6,11 +6,14 @@
 
 int main() {
     Veiculo veiculo1("v1");
+    //esse set tá definindo um valor
     veiculo1.setNumRodas(4);
     std::cout << "Numero de rodas do veiculo1: " << veiculo1.getNumRodas() << std::endl;
 
     Veiculo* obj1 = new Veiculo("v2");
-    obj1->setNumRodas(2); std::cout << "Numero de rodas de obj1: " << obj1->getNumRodas() << std::endl;
+    //esse set tá definindo um valor
+    obj1->setNumRodas(2);
+    std::cout << "Numero de rodas de obj1: " << obj1->getNumRodas() << std::endl;
     delete obj1;
 
     return 0;
