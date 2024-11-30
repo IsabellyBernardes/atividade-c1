@@ -1,5 +1,6 @@
 #include "veiculo.h"
 
+<<<<<<< HEAD
 //esse :: é usado para definir o construtor
 Roda::Roda() {
   std::cout << "Objeto Roda construido" << std::endl;
@@ -26,3 +27,5 @@ void Veiculo::setNumRodas(int rodas) {
 int Veiculo::getNumRodas() const {
   return num_rodas;
 }
+=======
+>>>>>>> a3b8cac (continuar)

@@ -11,8 +11,12 @@ int main() {
     std::cout << "Numero de rodas do veiculo1: " << veiculo1.getNumRodas() << std::endl;
 
     Veiculo* obj1 = new Veiculo("v2");
+<<<<<<< HEAD
     //esse set tá definindo um valor
     obj1->setNumRodas(2);
+=======
+    obj1->setNumRodas(2); 
+>>>>>>> a3b8cac (continuar)
     std::cout << "Numero de rodas de obj1: " << obj1->getNumRodas() << std::endl;
     delete obj1;
 
